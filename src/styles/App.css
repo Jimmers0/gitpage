@@ -1,0 +1,310 @@
+html {box-sizing:border-box;}
+*, *::before, *::after {box-sizing:inherit;}
+
+.nav{
+    height: 65px;
+    background-color: rgb(33, 37, 41);
+    
+    
+}
+
+.cat {
+    background-image: url("cat.png");
+    background-repeat: no-repeat;
+    zoom: 50%;
+    height: 70px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.navcontainer {
+    height: 60px;
+    display: flex;
+    position: relative;
+    top: -20px;
+    left: 70px;
+    align-items: baseline; 
+}
+
+.navavatar {
+    height: 20px;
+    width: 20px;
+}
+
+.search {
+    height: 30px;
+    width: 300px;
+    background-color: rgb(61, 64, 68);
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: rgb(136, 138, 140);
+    border-radius: 3px;
+
+}
+
+li {
+    list-style: none;
+}
+
+.pull {
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+}
+
+.issues {
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+}
+
+.market {
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+}
+
+.explore {
+    margin-left: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; 
+}
+
+.iconcontainer {
+   display: flex;
+   margin-left: 520px;
+
+}
+
+.maincontainer {
+    display: flex;
+}
+
+.repocontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.repos {
+    width: 1200px;
+    margin: 0 60px 0 60px;
+}
+
+.usercontainer {
+    width: 300px;
+}
+
+.avatar {
+    width: 250px;
+    height: 250px;
+    
+}
+
+.avatarcontainer{
+    margin-top: 40px;
+    height: 280px;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    width: 251px;
+}
+
+.username {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+
+}
+
+.loginname {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 20px;
+    }
+
+.follow {
+    height: 35px;
+    background-color: rgb(242, 245, 248);
+    width: 250px;
+    margin-left: 20px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(61, 64, 68);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bio {
+    margin-left: 20px; 
+    font-size: 15px;
+    color: rgb(61, 64, 68);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+
+}
+
+.location {
+display: flex;
+align-items: baseline;
+margin-top:15px;
+margin-left: 20px;
+border-bottom: 1px solid rgb(198, 198, 198);
+padding-bottom: 17px;
+
+}
+
+.org {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color: rgb(33, 37, 41);
+    text-decoration: none; 
+    margin-top: 20px;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.tab {
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+    color: rgb(136, 138, 140);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 13px;
+    line-height: 60px;
+    align-items: baseline;
+    font-weight: 500;
+}
+
+.tab:nth-child(2) {
+    width: 120px;
+    height: 60px;
+    margin-right: 20px;
+    color: rgb(136, 138, 140);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 13px;
+    line-height: 60px;
+    align-items: baseline;
+    border-bottom: 2px solid red; 
+}
+
+
+.circle {
+    color: rgb(61, 64, 68);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.repoaction {
+    display: flex;
+    margin-top: 20px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
+
+
+}
+
+.searchrepo {
+    height: 30px;
+    width: 300px;
+    padding-left: 10px;
+    width:650px;
+
+}
+
+.all {
+    height: 30px;
+    width:auto;
+    background-color: rgb(242, 245, 248);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(61, 64, 68);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin:0 15px 0 15px;
+    display: flex;
+    align-items: baseline;
+
+}
+
+.reponame {
+ text-decoration: none;
+ color: rgb(37, 103, 207);
+ font-size: 20px;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.info {
+    margin-top: 30px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.star {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(242, 245, 248);
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(61, 64, 68);
+    line-height: 30px;
+    text-align: center;
+    position:  relative;
+    left: 850px;
+    top: -75px;
+}
+
+.update {
+    margin-left: 30px;
+    font-size: 12px;
+    color: rgb(136, 138, 140);
+}
+
+.language {
+    font-size: 12px;
+    color: rgb(136, 138, 140);
+}
