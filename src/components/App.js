@@ -141,9 +141,9 @@ function App(props) {
                   
                   
                   
-                  <div className="repocontainer" >
+                  <div key={result.full_name} className="repocontainer" >
                     <ul>
-                      <li key={result.name}>
+                      <li>
                   <div><a className="reponame" href={result.html_url}> {result.name} </a></div>
                   <div className="description">{result.description}</div>
 
@@ -152,7 +152,7 @@ function App(props) {
                   <div className="update">Last updated: {result.updated_at}</div>
 
                   </div>
-                  <div className="star">Star</div>
+                  <div className="star"><div className="thestar"><MaterialIcon icon="star_rate" color={colorPalette.grey._500}/></div><div className="staricon">Star</div></div>
                   </li>
                   </ul>
                   </div>
@@ -178,31 +178,5 @@ function App(props) {
     
   )
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-// class App extends React.Component {
-//   componentDidMount() {
-//     axios.get("/api/example").then(resp => {
-//       console.log(resp.data)
-//     })
-//   }
-
-//   render() {
-//     return (
-//       <h1>Hello World</h1>
-//     )
-//   }
-// }
 
 export default App
